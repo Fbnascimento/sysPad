@@ -18,9 +18,9 @@ public class RepositorioItem implements IRepositorioItem {
 	public String listarItens() {
 		String resultado = "";
 		for (Item p : this.item) {
-			resultado = resultado + "[Código: " + p.getCodigo() + "] [Nome: " + p.getNome() + "] [Fabricante: "
+			resultado = resultado + "[Codigo: " + p.getCodigo() + "] [Nome: " + p.getNome() + "] [Fabricante: "
 					+ p.getFabricante() + "] [Tipo: " + p.getTipo() + "] [Unidade de Medida: " + p.getUnidadeMedida()
-					+ "] [Quantidade: " + p.getQuantidade() + "] [Preço de Venda: " + p.getPrecoVenda() + "]" + "\n";
+					+ "] [Quantidade: " + p.getQuantidade() + "] [Preco de Venda: " + p.getPrecoVenda() + "]" + "\n";
 		}
 		return resultado;
 	}

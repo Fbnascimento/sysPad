@@ -30,7 +30,7 @@ public class repositorioDeFuncionarios implements IRepositorioDeFuncionarios {
 	public void incluirFuncionario(Funcionario funci) {
 		while (funcionarios[this.posicao] != null) {
 			if (funcionarios[posicao].getMatricula() == funci.getMatricula()) {
-				System.out.println("Funcionario Já existe");
+				System.out.println("Funcionario Ja existe");
 				break;
 			}
 			posicao += 1;
